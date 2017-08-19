@@ -1,7 +1,5 @@
 package BusinessFunctions;
-
 import LIB.Common;
-
 public class Admin {
 	Common browser;
 
