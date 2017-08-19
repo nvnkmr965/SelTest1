@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM Automation" duration-ms="214328" started-at="2017-08-10T18:43:58Z" finished-at="2017-08-10T18:47:32Z">
+    <groups>
+    </groups>
+    <test name="TestScripts" duration-ms="214328" started-at="2017-08-10T18:43:58Z" finished-at="2017-08-10T18:47:32Z">
+      <class name="TestScripts.ScrollTo">
+        <test-method status="PASS" signature="Scroll()[pri:0, instance:TestScripts.ScrollTo@19f99ea]" name="Scroll" duration-ms="214303" started-at="2017-08-11T00:13:58Z" finished-at="2017-08-11T00:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scroll -->
+      </class> <!-- TestScripts.ScrollTo -->
+    </test> <!-- TestScripts -->
+  </suite> <!-- HRM Automation -->
+</testng-results>

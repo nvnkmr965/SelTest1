@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRM Automation]">
+  <listeners>
+    <listener class-name="BusinessFunctions.CustomReport"/>
+  </listeners>
+  <test name="TestScripts(failed)">
+    <classes>
+      <class name="TestScripts.ScrollTo">
+        <methods>
+          <include name="Scroll"/>
+        </methods>
+      </class> <!-- TestScripts.ScrollTo -->
+    </classes>
+  </test> <!-- TestScripts(failed) -->
+</suite> <!-- Failed suite [HRM Automation] -->
