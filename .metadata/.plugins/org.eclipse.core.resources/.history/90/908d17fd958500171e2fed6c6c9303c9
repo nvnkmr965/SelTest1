@@ -13,7 +13,7 @@ public class BrowsePhoto extends RootTest {
 	public void AddPhoto() throws Exception {
 		String testCaseName = this.toString();
 		System.out.println(testCaseName);
-		brow.startBrowserFirefox("Firefox");
+		brow.startBrowserFirefox("firefox");
 		brow.maximiseBrowser();
 		// verify title
 		brow.verifyTitle("OrangeHRM - New Level of HR Management");

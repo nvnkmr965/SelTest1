@@ -3,7 +3,6 @@ INDEX VERSION 1.130+C:\Users\Naveen\Downloads\HRM_FinalFramework\SelTest1\.metad
 2421093767.index
 2106698709.index
 992140850.index
-3527664936.index
 267853605.index
 3061396994.index
 3015443718.index
