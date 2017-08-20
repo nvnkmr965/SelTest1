@@ -9,10 +9,9 @@
 			<class name="TestScripts.Tc1_Login"></class>
 	<class name="TestScripts.TC2_AddEmp"></class>
 				<!-- 	<class name="TestScripts.TC3_AddLoc"></class>
-				<Parameter name="browser" value="ie" /> -->
-				
+				<Parameter name="browser" value="ie" />
 				<class name="TestScripts.BrowsePhoto"></class>		
-			<class name="TestScripts.ScrollTo"></class>
+			<class name="TestScripts.ScrollTo"></class> -->
 		</classes>
 	</test>
 </suite>
