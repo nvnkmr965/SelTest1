@@ -11,7 +11,7 @@ public class TC2_AddEmp extends RootTest
 	@Test
 	public static void AddEmployee() throws Exception
 	{
-		brow.startBrowserFirefox("firefox");
+		brow.startBrowserFirefox("Firefox");
 		brow.maximiseBrowser();
 		//verify title
 		brow.verifyTitle("OrangeHRM - New Level of HR Management");
