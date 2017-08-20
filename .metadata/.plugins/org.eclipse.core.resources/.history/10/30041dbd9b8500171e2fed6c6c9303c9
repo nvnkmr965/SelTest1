@@ -1,11 +1,13 @@
 package TestScripts;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import BusinessFunctions.CustomReport;
 import BusinessFunctions.Login;
 
 //Add listener to listen report and write it when test case finished
-//@Listeners(value=CustomReport.class)
+@Listeners(value=CustomReport.class)
 
 public class Tc1_Login extends RootTest 
 {

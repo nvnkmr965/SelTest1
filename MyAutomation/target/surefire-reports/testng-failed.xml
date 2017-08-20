@@ -6,11 +6,11 @@
   </listeners>
   <test name="TestScripts(failed)">
     <classes>
-      <class name="TestScripts.TC2_AddEmp">
+      <class name="TestScripts.ScrollTo">
         <methods>
-          <include name="AddEmployee"/>
+          <include name="Scroll"/>
         </methods>
-      </class> <!-- TestScripts.TC2_AddEmp -->
+      </class> <!-- TestScripts.ScrollTo -->
     </classes>
   </test> <!-- TestScripts(failed) -->
 </suite> <!-- Failed suite [My HRM Automation. Added jenkins] -->
