@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="HRM Automation" duration-ms="45750" started-at="2017-07-23T13:45:25Z" finished-at="2017-07-23T13:46:11Z">
+  <suite name="My HRM Automation. Added jenkins" duration-ms="52307" started-at="2017-08-20T08:29:18Z" finished-at="2017-08-20T08:30:10Z">
     <groups>
     </groups>
-    <test name="TestScripts" duration-ms="45750" started-at="2017-07-23T13:45:25Z" finished-at="2017-07-23T13:46:11Z">
-      <class name="TestScripts.BrowsePhoto">
-        <test-method status="PASS" signature="AddPhoto()[pri:0, instance:TestScripts.BrowsePhoto@ce8af7]" name="AddPhoto" duration-ms="45732" started-at="2017-07-23T19:15:25Z" finished-at="2017-07-23T19:16:11Z">
+    <test name="TestScripts" duration-ms="52307" started-at="2017-08-20T08:29:18Z" finished-at="2017-08-20T08:30:10Z">
+      <class name="TestScripts.Tc1_Login">
+        <test-method status="PASS" signature="verifyOrangeHRM()[pri:0, instance:TestScripts.Tc1_Login@6e6d5e]" name="verifyOrangeHRM" duration-ms="24997" started-at="2017-08-20T13:59:18Z" finished-at="2017-08-20T13:59:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddPhoto -->
-      </class> <!-- TestScripts.BrowsePhoto -->
+        </test-method> <!-- verifyOrangeHRM -->
+      </class> <!-- TestScripts.Tc1_Login -->
+      <class name="TestScripts.TC2_AddEmp">
+        <test-method status="PASS" signature="AddEmployee()[pri:0, instance:TestScripts.TC2_AddEmp@d64342]" name="AddEmployee" duration-ms="27293" started-at="2017-08-20T13:59:43Z" finished-at="2017-08-20T14:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+      </class> <!-- TestScripts.TC2_AddEmp -->
     </test> <!-- TestScripts -->
-  </suite> <!-- HRM Automation -->
+  </suite> <!-- My HRM Automation. Added jenkins -->
 </testng-results>
