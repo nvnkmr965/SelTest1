@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [My HRM Automation. Added jenkins]">
+  <listeners>
+    <listener class-name="BusinessFunctions.CustomReport"/>
+  </listeners>
+  <test name="TestScripts(failed)">
+    <classes>
+      <class name="TestScripts.TC2_AddEmp">
+        <methods>
+          <include name="AddEmployee"/>
+        </methods>
+      </class> <!-- TestScripts.TC2_AddEmp -->
+    </classes>
+  </test> <!-- TestScripts(failed) -->
+</suite> <!-- Failed suite [My HRM Automation. Added jenkins] -->
