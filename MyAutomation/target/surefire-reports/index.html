@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-My_HRM_Automation._Added_jenkins" title="TestScripts.TC2_AddEmp" hash-for-method="AddEmployee">AddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_HRM_Automation._Added_jenkins" title="TestScripts.BrowsePhoto" hash-for-method="AddPhoto">AddPhoto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_HRM_Automation._Added_jenkins" title="TestScripts.ScrollTo" hash-for-method="Scroll">Scroll</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,14 +134,14 @@
           <div class="suite-My_HRM_Automation._Added_jenkins-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestScripts.TC2_AddEmp</span>
+              <span class="class-name">TestScripts.ScrollTo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="AddEmployee">
-                  </a> <!-- AddEmployee -->
-                  <span class="method-name">AddEmployee</span>
+                  <a name="Scroll">
+                  </a> <!-- Scroll -->
+                  <span class="method-name">Scroll</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,6 +161,36 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-My_HRM_Automation._Added_jenkins-class-passed -->
+          <div class="suite-My_HRM_Automation._Added_jenkins-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScripts.TC2_AddEmp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddEmployee">
+                  </a> <!-- AddEmployee -->
+                  <span class="method-name">AddEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_HRM_Automation._Added_jenkins-class-passed -->
+          <div class="suite-My_HRM_Automation._Added_jenkins-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScripts.BrowsePhoto</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddPhoto">
+                  </a> <!-- AddPhoto -->
+                  <span class="method-name">AddPhoto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_HRM_Automation._Added_jenkins-class-passed -->
         </div> <!-- panel My_HRM_Automation._Added_jenkins -->
         <div panel-name="test-xml-My_HRM_Automation._Added_jenkins" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -161,13 +201,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;My HRM Automation. Added jenkins&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;BusinessFunctions.CustomReport&quot;/&gt;
-  &lt;/listeners&gt;
   &lt;test name=&quot;TestScripts&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestScripts.Tc1_Login&quot;/&gt;
       &lt;class name=&quot;TestScripts.TC2_AddEmp&quot;/&gt;
+      &lt;class name=&quot;TestScripts.BrowsePhoto&quot;/&gt;
+      &lt;class name=&quot;TestScripts.ScrollTo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestScripts --&gt;
 &lt;/suite&gt; &lt;!-- My HRM Automation. Added jenkins --&gt;
@@ -181,7 +220,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestScripts (2 classes)</span>
+                <span class="test-name">TestScripts (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,20 +246,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddEmployee')
-data.setCell(0, 2, 'TestScripts.TC2_AddEmp')
-data.setCell(0, 3, 27293);
+data.setCell(0, 1, 'Scroll')
+data.setCell(0, 2, 'TestScripts.ScrollTo')
+data.setCell(0, 3, 212568);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyOrangeHRM')
-data.setCell(1, 2, 'TestScripts.Tc1_Login')
-data.setCell(1, 3, 24997);
+data.setCell(1, 1, 'AddPhoto')
+data.setCell(1, 2, 'TestScripts.BrowsePhoto')
+data.setCell(1, 3, 41447);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AddEmployee')
+data.setCell(2, 2, 'TestScripts.TC2_AddEmp')
+data.setCell(2, 3, 34966);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyOrangeHRM')
+data.setCell(3, 2, 'TestScripts.Tc1_Login')
+data.setCell(3, 3, 24493);
 window.suiteTableData['My_HRM_Automation._Added_jenkins']= { tableData: data, tableDiv: 'times-div-My_HRM_Automation._Added_jenkins'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-My_HRM_Automation._Added_jenkins">
               </div> <!-- times-div-My_HRM_Automation._Added_jenkins -->
             </div> <!-- times-div -->
@@ -256,7 +303,21 @@ return data;
               <div class="chronological-class-name">TestScripts.TC2_AddEmp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">AddEmployee</span>
-                <span class="method-start">25000 ms</span>
+                <span class="method-start">24495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScripts.BrowsePhoto</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddPhoto</span>
+                <span class="method-start">59461 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScripts.ScrollTo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Scroll</span>
+                <span class="method-start">100910 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
