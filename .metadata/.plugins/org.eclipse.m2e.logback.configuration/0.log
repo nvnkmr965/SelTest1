@@ -153,3 +153,7 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/HRM_FinalFrame
 2017-08-20 16:07:03,487 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-08-20 16:07:03,490 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-08-20 16:07:03,497 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-20 16:09:33,489 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-20 16:09:33,497 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-20 16:09:33,501 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-20 16:09:33,516 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
